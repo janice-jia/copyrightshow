@@ -8,9 +8,8 @@ body{
 }
 
 .copy-logo {
-    float: left;
-	/*position: absolute;*/
-	/*left: 10px;*/
+	position: absolute;
+	left: 10px;
 }
 
 .copy-menu {
@@ -24,7 +23,6 @@ body{
 }
 
 .copy-menu ul {
-    float: left;
 	width: 630px;
 	height: 60px;
 	margin: 0 auto;
@@ -399,4 +397,61 @@ background-image: url(../img/monkey_1.png);
     height: 634px;
     /*border: 1px solid red;*/
     background-image: url(../img/monkey_3.png);
+}
+
+
+#copy-page6{
+    position: relative;
+    background-image: url(../img/BG_PAGE_6.jpg);
+}
+#copy-page6 .copy-page-tit{
+    color:white;
+}
+#copy-page6 .page6-content{
+    color: transparent;
+    text-shadow: #D4C3C3 0 0 5px;
+    text-align: center;
+    margin: 90px auto 0px;
+    width: 800px;
+    height: 270px;
+    /*border:1px solid red;*/
+}
+#copy-page6 .page6-address{
+    line-height: 37px;
+    width: 600px;
+    float: left;
+    text-align: left;
+    list-style: none;
+    color: white;
+}
+#copy-page6 .page6-QWR{
+    width: 190px;
+    height: 190px;
+    float: left;
+    /*border: 1px solid red;*/
+}
+#copy-page6 a{
+    margin-top: 10px;
+    float: left;
+    display: block;
+}
+#copy-page6 a.page6-qq{
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+    /*border:1px solid red;*/
+    background: url(../img/QQ.png) no-repeat;
+}
+#copy-page6 a.page6-qq:hover{
+    background: url(../img/QQ_ACTIVE.png) no-repeat;
+}
+#copy-page6 a.page6-weibo{
+    margin-left: 50px;
+    width: 50px;
+    height: 50px;
+    /*border:1px solid red;*/
+    background: url(../img/WEIBO.png) no-repeat;
+}
+#copy-page6 a.page6-weibo:hover{
+    background: url(../img/WEIBO_ACTIVE.png) no-repeat;
 }
