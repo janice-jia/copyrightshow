@@ -1,12 +1,21 @@
 /*one start ----------->*/
+
+@charset "utf-8";
+
+body{
+	font-family: "Microsoft YaHei",Arial,"Helvetica Neue","Hiragino Sans GB",Simsun,sans-self;
+}
+
 * {
 	margin: 0;
 	padding: 0;
 }
+
 .copy-logo {
 	position: absolute;
 	left: 10px;
 }
+
 .copy-menu {
     width: 100%;
     height: 60px;
@@ -168,3 +177,458 @@
 	opacity: 0.5;
 }
 /*one end ----------->*/
+
+/*第二屏幕  start*/
+
+.copy-two{
+    padding: 60px 0 0 0;
+}
+
+.copy-page-tit{
+    text-align: center;
+    font-size: 30px;
+    color: #3e3a39;
+}
+
+.copy-tit-english{
+    font-size: 12px;
+    font-family:'Helvetica*';
+    letter-spacing: 7px;
+    margin-top: 5px;
+}
+
+.copy-do{
+    width: 1010px;
+    margin: 100px auto 0 auto;
+    height: 310px;
+    position: relative;
+}
+
+.copy-do-animation,
+.copy-do-collect,
+.copy-do-copy{
+    width: 310px;
+    height: 310px;
+    background: #4cabeb;
+    border-radius: 50%;
+    text-align: center;
+    float: left;
+    
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin: 0 0 0 -155px;
+}
+
+.copy-do-animation{
+    top: 0;
+    left: 50%;
+    margin: 0 0 0 -155px;
+    z-index: 2;
+}
+
+.copy-do-collect{
+    z-index: 3;
+}
+
+.copy-do-copy{
+    z-index: 1;
+}
+
+.copy-do-tit{
+    color: #ffffff;
+    font-size: 32px;
+    padding: 90px 0 0 0;
+}
+
+.copy-do-desc{
+    color: #ffffff;
+    font-size: 22px;
+    padding: 40px 0 0 0;
+}
+/*第二屏幕 end*/
+
+
+/*第四屏幕  start*/
+
+.copy-four{
+    height: 100%;
+    position: relative;
+    padding: 60px 0 0 0;
+    background: url(../img/bg_four.jpg);
+    background-size: 100% 100%;
+}
+
+.copy-four .copy-page-tit{
+    color: #ffffff;
+}
+
+
+.copy-four-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 0;
+}
+
+.copy-four-con{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.copy-service{
+    width: 1005px;
+    height: 224px;
+    position: absolute;
+}
+
+.copy-service-con ul{
+    height: 140px;
+    border-top:1px solid #C9CACA;
+    border-left:1px solid #C9CACA;
+    padding: 0;
+}
+
+#copy-service-con1{
+    left: 100%;
+/*    margin: 0 0 0 -502.5px;*/
+}
+
+#copy-service-con2{
+    right: 100%;
+    top:440px;
+/*    margin: 0 -502.5px 0 0;*/
+}
+
+.copy-four-con .mt220{
+    margin-top: 220px;
+}
+
+.copy-service-con ul li{
+    float: left;
+    list-style: none;
+    height: 140px;
+    line-height: 140px;
+    width: 250px;
+    text-align: center;
+    border-right:1px solid #C9CACA;
+    border-bottom:1px solid #C9CACA;
+    background-color: #ffffff;
+    font-size: 26px;
+    text-align: center;
+}
+
+.copy-four-padding{
+    padding: 30px 0;
+}
+
+.copy-service-CCTV{
+    background: url(../img/CCTV.png) center center no-repeat;
+}
+
+.copy-service-CNR{
+    background: url(../img/CNR.png) center center no-repeat;
+}
+
+.copy-service-JSBC{
+    background: url(../img/JSBC.png) center center no-repeat;
+}
+
+
+.copy-service-ZHONGYING{
+    background: url(../img/ZHONGYING.png) center center no-repeat;
+}
+
+.copy-service-LEYE{
+    background: url(../img/LEYE.png) center center no-repeat;
+}
+
+.copy-service-LMYD{
+    background: url(../img/LMYD.png) center center no-repeat;
+}
+
+.copy-service-TGYC{
+    background: url(../img/TGYC.png) center center no-repeat;
+}
+
+.copy-service-YL{
+    background: url(../img/YL.png) center center no-repeat;
+}
+
+.copy-service-desc{
+    clear: both;
+    height: 84px;
+    line-height: 84px;
+    background: #ffffff;
+    font-size: 26px;
+    text-align: center;
+}
+
+/*第四屏幕  end*/
+
+
+/*第五屏幕 start*/
+
+.copy-five  .copy-page-tit{
+    color:#4cabeb;
+}
+
+.copy-five-tit{
+    font-size: 22px;
+    color: #ffffff;
+    text-align: center;
+    padding: 35px 0;
+}
+
+.copy-five-info{
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0 20px;
+    font-weight: normal;
+    line-height: 25px;
+}
+
+.copy-five-con{
+    width: 1000px;
+    margin: auto;
+}
+
+.copy-five-con ul li{
+    float: left;
+    background:#4cabeb;
+    margin: 0 0 10px 0;
+    list-style: none;
+}
+
+.copy-five-con ul li.width428{
+    width: 428px;
+    overflow: hidden;
+    height: 276px;
+}
+
+.copy-five-con ul li.width276{
+    width: 276px;
+    height: 276px;
+}
+
+.copy-five-con ul li.ml-mt-10{
+    margin: 0 10px;
+}
+
+/*第五屏幕 end*/
+
+/* Page3 - slide
+* --------------------------------------- */
+
+.page3{
+    /*margin-top: 200px;*/
+    z-index: 3;
+    position: relative;
+    top:110px;
+    height:60px;
+}
+
+.slide{
+    background-size: 100% 100%;
+}
+
+.copy-page-switch{list-style: none;margin:0 auto;align-content: center}
+.copy-page-switch li{
+    margin-left: 10px;
+    float: left;
+    height: 3px;
+    width: 30px;
+    background: #000;
+}
+
+
+/* page3 第1屏 */
+#copy-page3-slide1,#copy-page3-slide2,#copy-page3-slide3{
+    position: relative;
+    background-image: url(../img/BG_YELLOW2.png);
+
+}
+
+.page3-slide1{
+    position: absolute;
+    top:108px;
+    right:50%;
+    margin-right: -370px;
+    width: 370px;
+    height: 634px;
+    /*border: 1px solid red;*/
+    background-image: url(../img/frame_yellow.png);
+}
+
+.page3-slide1-left{
+position: absolute;
+bottom:40px;
+right:50%;
+width: 590px;
+height: 590px;
+/*border: 1px solid red;*/
+background-image: url(../img/monkey_1.png);
+}
+
+/* 响应式 */
+@media (min-height:800px) and (max-height:1200px) {
+
+    .page3-slide1-left{
+        bottom:80px;
+    }
+
+    .page3-slide3-left{
+        bottom:80px;
+    }
+
+    .page3-slide2-left{
+        bottom:40px;
+
+    }
+}
+
+
+
+.desc-title{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    /*border:1px solid red;*/
+
+}
+
+.desc-item{
+    padding: 0px;
+    margin:88px 0px 0px;
+    list-style: none;
+}
+.desc-item-title{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    /*border:1px solid red;*/
+}
+.desc-item-info{
+    line-height: 26px;
+    margin-top: 20px;
+    font-weight: normal;
+    padding: 0px 60px;
+    font-size: 16px;
+    text-align: center;
+    /*border:1px solid red;*/
+}
+
+
+
+
+/* page3 第2屏 */
+.page3-slide2{
+    position: absolute;
+    top:108px;
+    right:50%;
+    margin-left: -370px;
+    width: 370px;
+    height: 634px;
+    /*border: 1px solid red;*/
+    background-image: url(../img/frame_blue.png);
+}
+
+.page3-slide2-left{
+    position: absolute;
+    bottom:30px;
+    left:50%;
+    width: 590px;
+    height: 634px;
+    /*border: 1px solid red;*/
+    background-image: url(../img/monkey_2.png);
+    -webkit-background-size:cover;
+    background-size:cover;
+}
+
+/* page3 第3屏 */
+.page3-slide3{
+    position: absolute;
+    top:108px;
+    right:50%;
+    margin-right: -370px;
+    width: 370px;
+    height: 634px;
+    /*border: 1px solid red;*/
+    background-image: url(../img/frame_green.png);
+}
+.page3-slide3-left{
+    position: absolute;
+    bottom:40px;
+    right:50%;
+    width: 590px;
+    height: 590px;
+    /*border: 1px solid red;*/
+    background-image: url(../img/monkey_3.png);
+}
+
+
+#copy-page6{
+    position: relative;
+    background-image: url(../img/BG_PAGE_6.jpg);
+}
+#copy-page6 .copy-page-tit{
+    color:white;
+}
+#copy-page6 .page6-content{
+    color: transparent;
+    text-shadow: #D4C3C3 0 0 5px;
+    text-align: center;
+    margin: 90px auto 0px;
+    width: 800px;
+    height: 270px;
+    /*border:1px solid red;*/
+}
+#copy-page6 .page6-address{
+    line-height: 37px;
+    width: 600px;
+    float: left;
+    text-align: left;
+    list-style: none;
+    color: white;
+}
+#copy-page6 .page6-QWR{
+    width: 190px;
+    height: 190px;
+    float: left;
+    /*border: 1px solid red;*/
+}
+#copy-page6 a{
+    margin-top: 10px;
+    float: left;
+    display: block;
+}
+#copy-page6 a.page6-qq{
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+    /*border:1px solid red;*/
+    background: url(../img/QQ.png) no-repeat;
+}
+#copy-page6 a.page6-qq:hover{
+    background: url(../img/QQ_ACTIVE.png) no-repeat;
+}
+#copy-page6 a.page6-weibo{
+    margin-left: 50px;
+    width: 50px;
+    height: 50px;
+    /*border:1px solid red;*/
+    background: url(../img/WEIBO.png) no-repeat;
+}
+#copy-page6 a.page6-weibo:hover{
+    background: url(../img/WEIBO_ACTIVE.png) no-repeat;
+}
