@@ -139,12 +139,13 @@ body{
 .copy-do-tit{
     color: #ffffff;
     font-size: 32px;
-    padding: 60px 0 0 0;
+    padding: 90px 0 0 0;
 }
 
 .copy-do-desc{
     color: #ffffff;
     font-size: 22px;
+    padding: 40px 0 0 0;
 }
 /*第二屏幕 end*/
 
