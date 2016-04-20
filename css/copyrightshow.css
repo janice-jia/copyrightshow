@@ -290,6 +290,16 @@ body{
     background-size: 100% 100%;
 }
 
+.copy-page-switch{list-style: none;margin:0 auto;align-content: center}
+.copy-page-switch li{
+    margin-left: 10px;
+    float: left;
+    height: 3px;
+    width: 30px;
+    background: #000;
+}
+
+
 /* page3 第1屏 */
 #copy-page3-slide1,#copy-page3-slide2,#copy-page3-slide3{
     position: relative;
@@ -299,7 +309,7 @@ body{
 
 .page3-slide1{
     position: absolute;
-    top:180px;
+    top:108px;
     right:50%;
     margin-right: -370px;
     width: 370px;
@@ -310,12 +320,29 @@ body{
 
 .page3-slide1-left{
 position: absolute;
-top:180px;
+bottom:40px;
 right:50%;
 width: 590px;
 height: 590px;
 /*border: 1px solid red;*/
 background-image: url(../img/monkey_1.png);
+}
+
+/* 响应式 */
+@media (min-height:800px) and (max-height:1200px) {
+
+    .page3-slide1-left{
+        bottom:80px;
+    }
+
+    .page3-slide3-left{
+        bottom:80px;
+    }
+
+    .page3-slide2-left{
+        bottom:40px;
+
+    }
 }
 
 
@@ -358,7 +385,7 @@ background-image: url(../img/monkey_1.png);
 /* page3 第2屏 */
 .page3-slide2{
     position: absolute;
-    top:180px;
+    top:108px;
     right:50%;
     margin-left: -370px;
     width: 370px;
@@ -369,7 +396,7 @@ background-image: url(../img/monkey_1.png);
 
 .page3-slide2-left{
     position: absolute;
-    top:180px;
+    bottom:30px;
     left:50%;
     width: 590px;
     height: 634px;
@@ -382,7 +409,7 @@ background-image: url(../img/monkey_1.png);
 /* page3 第3屏 */
 .page3-slide3{
     position: absolute;
-    top:180px;
+    top:108px;
     right:50%;
     margin-right: -370px;
     width: 370px;
@@ -392,10 +419,10 @@ background-image: url(../img/monkey_1.png);
 }
 .page3-slide3-left{
     position: absolute;
-    top:180px;
+    bottom:40px;
     right:50%;
     width: 590px;
-    height: 634px;
+    height: 590px;
     /*border: 1px solid red;*/
     background-image: url(../img/monkey_3.png);
 }
