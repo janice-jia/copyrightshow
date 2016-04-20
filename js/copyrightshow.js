@@ -1,5 +1,7 @@
 $(function(){
     $('#dowebok').fullpage({
+        slidesNavPosition:"top",
+        controlArrowColor:"#4cabeb",
         loopHorizontal:false,
          anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage','fivePage', 'lastPage'],
          menu: '#copy-menu-item',
