@@ -184,13 +184,32 @@ body{
     z-index: 1;
 }
 
+.copy-service{
+    width: 1005px;
+    height: 224px;
+    position: absolute;
+}
+
 .copy-service-con ul{
-    width: 1004px;
     height: 140px;
     border-top:1px solid #C9CACA;
     border-left:1px solid #C9CACA;
-    margin: 0 auto;
     padding: 0;
+}
+
+#copy-service-con1{
+    left: 100%;
+/*    margin: 0 0 0 -502.5px;*/
+}
+
+#copy-service-con2{
+    right: 100%;
+    top:440px;
+/*    margin: 0 -502.5px 0 0;*/
+}
+
+.copy-four-con .mt220{
+    margin-top: 220px;
 }
 
 .copy-service-con ul li{
@@ -228,13 +247,27 @@ body{
     background: url(../img/ZHONGYING.png) center center no-repeat;
 }
 
+.copy-service-LEYE{
+    background: url(../img/LEYE.png) center center no-repeat;
+}
+
+.copy-service-LMYD{
+    background: url(../img/LMYD.png) center center no-repeat;
+}
+
+.copy-service-TGYC{
+    background: url(../img/TGYC.png) center center no-repeat;
+}
+
+.copy-service-YL{
+    background: url(../img/YL.png) center center no-repeat;
+}
+
 .copy-service-desc{
     clear: both;
-    width: 1004px;
     height: 84px;
     line-height: 84px;
     background: #ffffff;
-    margin: 0 auto;
     font-size: 26px;
     text-align: center;
 }

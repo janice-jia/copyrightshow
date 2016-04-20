@@ -16,12 +16,27 @@ $(function(){
                     $('.copy-do-animation').animate({'marginLeft':'-505px'},'slow');
                     $('.copy-do-copy').animate({'marginLeft':'195px'},'slow');
                  }
+                 
+                 if(index == 4){
+                    $('#copy-service-con1').animate({left:'50%','marginLeft':'-502.5px'},'slow');
+                    $('#copy-service-con2').animate({right:'50%','marginRight':'-502.5px'},'slow');
+                 }
     	     },
     	     onLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){
     	     	   //alert("1111")
     	     	   $(".copy-video").animate({height:"0px"},200,function(){
     	     		
     	     	    });
+                 
+                 if(index != 2){
+                    $('.copy-do-animation').animate({'marginLeft':'-155px'},'slow');
+                    $('.copy-do-copy').animate({'marginLeft':'-155px'},'slow');
+                 }
+                 
+                 if(index != 4){
+                    $('#copy-service-con1').animate({left:'100%','marginLeft':'0'},'slow');
+                    $('#copy-service-con2').animate({right:'100%','marginRight':'0'},'slow');
+                 }
     	     }
     	     
     });
