@@ -2,7 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b50c4d83-46cb-4e82-9704-fe0285937b4f" name="Default" comment="添加了需要的切图">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/video1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/video2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/video3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/video4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/skin/default/icon-ext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/skin/default/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/skin/default/loading-0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/skin/default/loading-1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/skin/default/loading-2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/video/video1.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/video/video2.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/video/video3.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/video/video4.MP4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/extend/layer.ext.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/layer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/skin/layer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/skin/layer.ext.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/video1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/video2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/video3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/video4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/onebg.jpg" afterPath="$PROJECT_DIR$/img/onebg.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/copyrightshow.css" afterPath="$PROJECT_DIR$/css/copyrightshow.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/copyrightshow.js" afterPath="$PROJECT_DIR$/js/copyrightshow.js" />
     </list>
     <ignored path="copyrightshow_official.iws" />
@@ -27,18 +51,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="183" column="45" selection-start-line="183" selection-start-column="32" selection-end-line="183" selection-end-column="45" />
+            <state relative-caret-position="885">
+              <caret line="232" column="45" selection-start-line="232" selection-start-column="45" selection-end-line="232" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="copyrightshow.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="copyrightshow.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/copyrightshow.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="438" column="0" selection-start-line="438" selection-start-column="0" selection-end-line="438" selection-end-column="13" />
+            <state relative-caret-position="328">
+              <caret line="653" column="30" selection-start-line="653" selection-start-column="30" selection-end-line="653" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -58,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="copyrightshow.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="copyrightshow.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/copyrightshow.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="129" column="27" selection-start-line="129" selection-start-column="27" selection-end-line="129" selection-end-column="27" />
+            <state relative-caret-position="525">
+              <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -77,8 +101,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/copyrightshow.css" />
         <option value="$PROJECT_DIR$/js/copyrightshow.js" />
+        <option value="$PROJECT_DIR$/css/copyrightshow.css" />
       </list>
     </option>
   </component>
@@ -350,7 +374,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1461157842664</updated>
-      <workItem from="1461157843869" duration="25150000" />
+      <workItem from="1461157843869" duration="25449000" />
     </task>
     <task id="LOCAL-00001" summary="添加了需要的切图">
       <created>1461158135548</created>
@@ -363,7 +387,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25150000" />
+    <option name="totallyTimeSpent" value="25449000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -460,24 +484,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="183" column="45" selection-start-line="183" selection-start-column="32" selection-end-line="183" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/copyrightshow.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="438" column="0" selection-start-line="438" selection-start-column="0" selection-end-line="438" selection-end-column="13" />
+        <state relative-caret-position="885">
+          <caret line="232" column="45" selection-start-line="232" selection-start-column="45" selection-end-line="232" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/copyrightshow.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="129" column="27" selection-start-line="129" selection-start-column="27" selection-end-line="129" selection-end-column="27" />
+        <state relative-caret-position="525">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/copyrightshow.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="653" column="30" selection-start-line="653" selection-start-column="30" selection-end-line="653" selection-end-column="30" />
           <folding />
         </state>
       </provider>

@@ -1,4 +1,35 @@
+
 $(function () {
+
+	// one start ----->
+	var pheight = $(window).height();
+	var posiValue = $(".copy-video-left").width();
+	var copyTitleHeight = $(".copy-title").height();
+	var pwidth = $(window).width(); //pheight*0.28
+	var videoHeight = pheight * 0.28;
+	var videoWidth = pwidth / 4;
+	$(".copy-video-left").css("left", 0 - posiValue);
+	$(".copy-video-right").css("right", 0 - posiValue);
+	var copyTitleWidth = $(".copy-title").width();
+	var copyTitleLeft = (pwidth - copyTitleWidth) / 2;
+	var copyTitleTop = (pheight - copyTitleHeight - videoHeight - 50) / 2 + 30;
+
+	$(".copy-video").css({
+		"height": videoHeight
+	});
+	$(".copy-video ul li").css({
+		"height": videoHeight,
+		"width": videoWidth
+	});
+	$(".copy-video ul li div").css({
+		"height": videoHeight
+	});
+
+	$(".copy-title").css({
+		"left": copyTitleLeft
+	});
+	// one end ----->
+
     $('#dowebok').fullpage({
         slidesNavPosition: "top",
         controlArrowColor: "#4cabeb",
@@ -152,4 +183,5 @@ $(function () {
         $(this).children("a").addClass("copy-active");
         $(this).siblings().children("a").removeClass("copy-active");
     });
+
 });
