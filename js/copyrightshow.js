@@ -71,7 +71,7 @@ $(function() {
 		 layer.open({
 		      type: 2,
 		      scrollbar:false,
-		      title: '标题标题标题',
+		      title: ' ',
 		      shadeClose: true,
 		      shade: false,
 		      maxmin: true, //开启最大化最小化按钮
