@@ -28,6 +28,9 @@ $(function() {
 	});
 	// one end ----->
 	$('#dowebok').fullpage({
+		slidesNavPosition: "top",
+		controlArrowColor: "#4cabeb",
+		loopHorizontal: false,
 		anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fivePage', 'lastPage'],
 		menu: '#copy-menu-item',
 		sectionsColor: ['#ffffff', '#4BBFC3', '#7BAABE', '#ffff00'],
@@ -66,9 +69,15 @@ $(function() {
 					'marginRight': '-502.5px'
 				}, 'slow');
 
-	               }
- 
-                 if(index == 5){
+			}
+
+			if (index == 5) {
+				$('.copy-five-con li').toggleClass("zoomIn animated").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(e) {
+
+					// trick to execute the animation again
+					$(this).removeClass('zoomIn animated');
+
+				});
 
 			}
 			// one end ----->
