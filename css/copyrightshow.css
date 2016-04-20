@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 body{
 	font-family: "Microsoft YaHei",Arial,"Helvetica Neue","Hiragino Sans GB",Simsun,sans-self;
 }
@@ -276,6 +278,57 @@ body{
 }
 
 /*第四屏幕  end*/
+
+
+/*第五屏幕 start*/
+
+.copy-five  .copy-page-tit{
+    color:#4cabeb;
+}
+
+.copy-five-tit{
+    font-size: 22px;
+    color: #ffffff;
+    text-align: center;
+    padding: 35px 0;
+}
+
+.copy-five-info{
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0 20px;
+    font-weight: normal;
+    line-height: 25px;
+}
+
+.copy-five-con{
+    width: 1000px;
+    margin: auto;
+}
+
+.copy-five-con ul li{
+    float: left;
+    background:#4cabeb;
+    margin: 0 0 10px 0;
+    list-style: none;
+}
+
+.copy-five-con ul li.width428{
+    width: 428px;
+    overflow: hidden;
+    height: 276px;
+}
+
+.copy-five-con ul li.width276{
+    width: 276px;
+    height: 276px;
+}
+
+.copy-five-con ul li.ml-mt-10{
+    margin: 0 10px;
+}
+
+/*第五屏幕 end*/
 
 /* Page3 - slide
 * --------------------------------------- */
