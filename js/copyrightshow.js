@@ -23,7 +23,19 @@ $(function(){
 	 
                     $('#copy-service-con1').animate({left:'50%','marginLeft':'-502.5px'},'slow');	 
                     $('#copy-service-con2').animate({right:'50%','marginRight':'-502.5px'},'slow');
+
 	               }
+
+                 if(index == 5){
+
+                    $('.copy-five-con li').toggleClass("zoomIn animated").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(e){
+
+                        // trick to execute the animation again
+                        $(this).removeClass('zoomIn animated');
+
+                    });
+
+                 }
     	     },
     	     onLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){
                  $("#copy-menu-item li a").removeClass("copy-active");
@@ -47,6 +59,8 @@ $(function(){
                         $('#copy-service-con2').animate({right:'100%','marginRight':'0'},'slow');
 
                     }
+
+
     	     }
     	     
     });
