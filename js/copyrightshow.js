@@ -66,6 +66,10 @@ $(function() {
 					'marginRight': '-502.5px'
 				}, 'slow');
 
+	               }
+ 
+                 if(index == 5){
+
 			}
 			// one end ----->
 		},
