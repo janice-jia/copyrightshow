@@ -206,7 +206,7 @@ $(function() {
 				}
 				//alert(slideIndex)
 				 $(".copy-page-switch li").eq(slideIndex).css({background:"#4cabed"});
-				 $(".copy-page-switch li").eq(slideIndex).siblings("li").css({background:"#000"})
+				 $(".copy-page-switch li").eq(slideIndex).siblings("li").css({background:"#000"});
 			}
 
 		}
