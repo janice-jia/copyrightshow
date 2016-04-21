@@ -31,8 +31,11 @@ $(function () {
 	// one end ----->
 
     $('#dowebok').fullpage({
-        slidesNavPosition: "top",
-        controlArrowColor: "#4cabeb",
+        navigation: true,
+        navigationPosition: 'right',
+        navigationColor:'white',
+        slidesNavPosition: 'top',
+        controlArrowColor: '#4cabeb',
         loopHorizontal: false,
         anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fivePage', 'lastPage'],
         menu: '#copy-menu-item',
