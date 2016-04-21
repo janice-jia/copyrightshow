@@ -209,10 +209,35 @@ $(function() {
 		}
 
 	});
-
+	
 	$("#copy-menu-item li").click(function() {
 		$(this).children("a").addClass("copy-active");
 		$(this).siblings().children("a").removeClass("copy-active");
+	});
+
+	$(".copy-video ul li div").hover(function() {
+		$(this).children("span").animate({
+			width: "100%"
+		}, 200);
+	}, function() {
+		$(this).children("span").animate({
+			width: "0"
+		}, 200);
+	});
+	
+	$(".copy-video ul li").click(function() {
+		var title = $(this).children("div").children("p").html();
+		var html = $(this).attr("data-video");
+		layer.open({
+			type: 2,
+			scrollbar: false,
+			title: title,
+			shadeClose: true,
+			shade: false,
+			maxmin: true, //开启最大化最小化按钮
+			area: ['950px', '600px'],
+			content: html
+		});
 	});
 
 });
