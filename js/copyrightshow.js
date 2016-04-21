@@ -183,7 +183,7 @@ $(function() {
 						$('.page3-slide1').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(e) {
 							$(this).removeClass('fadeInUpBig animated');
 						});
-
+                       
 						break;
 					case 1:
 						$('.page3-slide2-left').toggleClass('rotateDownRight animated');
@@ -204,6 +204,9 @@ $(function() {
 						});
 						break;
 				}
+				//alert(slideIndex)
+				 $(".copy-page-switch li").eq(slideIndex).css({background:"#4cabed"});
+				 $(".copy-page-switch li").eq(slideIndex).siblings("li").css({background:"#000"})
 			}
 
 		}
