@@ -242,5 +242,16 @@ $(function() {
 			content: html
 		});
 	});
+	
+	$(".page3-slide1").click(function(){
+		  location.href = "http://www.ibanyi.com/";
+	});
 
+   $(".page3-slide2").click(function(){
+		  layer.msg("即将上线，敬请期待 ^_^");
+	});
+	
+	$(".page3-slide3").click(function(){
+		  location.href = "http://www.banxinyi.com/";
+	});
 });

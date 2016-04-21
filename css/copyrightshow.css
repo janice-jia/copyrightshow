@@ -588,6 +588,10 @@ body {
 	background-image: url(../img/frame_green.png);
 }
 
+.page3-slide1,.page3-slide2,.page3-slide3 {
+	cursor: pointer;
+}
+
 .page3-slide3-left {
 	position: absolute;
 	bottom: 40px;
