@@ -193,12 +193,13 @@ body {
 	text-align: center;
 	font-size: 30px;
 	color: #3e3a39;
+	letter-spacing: 9px;
 }
 
 .copy-tit-english {
 	font-size: 12px;
-	font-family: 'Helvetica*';
-	letter-spacing: 7px;
+	font-family: 'Helvetica';
+	letter-spacing: 9px;
 	margin-top: 5px;
 }
 
